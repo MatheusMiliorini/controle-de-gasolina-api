@@ -7,7 +7,3 @@ app.get('/', function (req, res) {
         sobrenome:"Miliorini"
     })
 });
-
-app.listen(3000, function () {
-    console.log("Rodando!");
-});
