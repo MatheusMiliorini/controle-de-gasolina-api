@@ -4,7 +4,9 @@ var app = express();
 app.get('/', function (req, res) {
     res.json({
         nome:"Matheus",
-        sobrenome:"Miliorini"
+        sobrenome:"Miliorini",
+        idade: 20,
+        lindo: true
     })
 });
 
